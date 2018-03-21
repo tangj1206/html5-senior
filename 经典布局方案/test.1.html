@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>左右两栏式</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .wrap{
+            margin: 0 auto;
+            width: 100%;
+        }
+        #left{
+            width: 200px;
+            height: 500px;
+            background-color: #ccf;
+            float: left;
+        }
+        #right{
+            height: 500px;
+            background-color: #ffcccc;
+            margin-left: 200px;
+        }
+    </style>
+    <!-- 
+        1.混合浮动+普通流
+            好处是右侧宽度自适应
+        2.
+     -->
+</head>
+
+<body>
+    <div class="wrap">
+        <div id="left"></div>
+        <section id="right"></section>
+    </div>
+</body>
+
+</html>
