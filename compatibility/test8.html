@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>li里元素都浮动在IE6 7 下方会产生4px间隙问题</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .list {
+            margin: 0;
+            padding: 0;
+            width: 300px;
+            list-style: none;
+        }
+
+        .list li {
+            height: 30px;
+            border: 1px solid red;
+            line-height: 30px;
+            *vertical-align: top;
+        }
+
+        .list li a {
+            float: left;
+        }
+
+        .list li span {
+            float: right;
+        }
+    </style>
+    <!-- 
+        解决方案
+            加vertical-align:top;
+     -->
+</head>
+
+<body>
+    <ul class="list">
+        <li>
+            <a href="">左边</a>
+            <span>右边</span>
+        </li>
+        <li>
+            <a href="">左边</a>
+            <span>右边</span>
+        </li>
+        <li>
+            <a href="">左边</a>
+            <span>右边</span>
+        </li>
+    </ul>
+</body>
+
+</html>
