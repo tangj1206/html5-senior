@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>IE6下绝对定位元素父级宽高是奇数绝对定位元素的right和bottom值会有1px的偏差</title>
+    <style>
+        .box{
+            width: 307px;
+            height: 307px;
+            background-color: red;
+            position: relative;
+        }
+        .child{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+
+        }
+        /* 
+            解决方案：
+                1.避免父级宽高为奇数
+         */
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="child">
+
+        </div>
+    </div>
+</body>
+</html>
