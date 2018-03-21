@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IE6文字溢出问题</title>
+    <style>
+        .wrap{
+            width: 400px;
+        }
+        .left{
+            float: left;
+        }
+        .right{
+            width: 400px;
+            float:right;
+        }
+    </style>
+    <!-- 
+        触发条件：
+            两个浮动元素中间有注释或者内联元素 并且和父级元素宽度不相差3像素
+        解决方案：
+            1.两个浮动元素之间避免出现内联元素
+            2.与父级宽度相差3像素以上
+     -->
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="left"></div>
+        <!-- <span></span><span></span><span></span><span></span> IE下文字溢出BUG-->
+        <div class="right">这是多出来的一只猪</div>
+    </div>
+</body>
+
+</html>
