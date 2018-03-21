@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IE6 input空隙</title>
+    <style>
+        .box{
+            width: 200px;
+            border: 1px solid #000;
+            background-color: red;
+        }
+        input{
+            margin: 0;
+            border: 0;
+            width: 200px;
+            height: 30px;
+            background-color: #fff;
+            *float: left;
+        }
+    </style>
+    <!-- 
+        解决方案：
+        给input加上float left
+     -->
+</head>
+<body>
+    <div class="box">
+        <input type="text">
+    </div>
+</body>
+</html>
