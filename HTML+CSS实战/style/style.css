@@ -53,3 +53,17 @@ color: #fff;font-size: 15px;font-family: Arial, Helvetica, sans-serif;line-heigh
 #nav a:hover,#nav .active a{background: url('../images/nav_active_bg.png') repeat-x 0 -56px;}
 #nav a:hover strong,#nav .active strong{background: url('../images/nav_active_bg.png') no-repeat;}
 #nav a:hover span,#nav .active span{background: url('../images/nav_active_bg.png') no-repeat right -28px;}
+
+#content{width: 1000px;margin: 24px auto 0;background: url('../images/content_bg.png') repeat-y -1000px 0;}
+#content_top{width: 1000px;background: url('../images/content_bg.png') no-repeat 0 0;}
+#content_bottom{width: 1000px;background: url('../images/content_bg.png') no-repeat -2000px bottom;}
+
+#ad{width: 940px;height: 300px;position: relative;margin: 0 auto;top: 10px;margin: 0 auto;}
+#ad ul,#ad li,#ad h2,#ad p{position: absolute;}
+#ad ul{top: 0;left: 0;z-index: 1;}
+#ad li{top: 0;left: 0;}
+#ad h2{bottom: 0;left: 0;z-index: 3;width: 268px;text-align: center;font-size: 25px;color: #ffc600;bottom:10px;}
+#ad p{bottom: 7px;z-index: 3;left: 268px;color: #fcc;font-size: 13px;line-height: 16px;
+width: 630px;}
+#ad .bg{width: 940px;height: 52px;background: #000;opacity: .8;position: absolute;
+    bottom: 0;left: 0;z-index: 2;}
