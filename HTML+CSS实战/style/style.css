@@ -104,3 +104,19 @@ color: #434343;}
 .space3{height: 45px;line-height: 18px;padding-top: 5px;}
 
 #payment {margin: 33px 0 0 18px;}
+
+.sort {height: 20px;}
+.sort dl{float: left;}
+.sort dt{float: left;color: #747474;font-weight: bold;font-size: 12px;padding-right: 2px;}
+.sort dd{float:left;width: 109px;height: 19px;;position: relative;margin-right: 12px;}
+.sort h2{width: 108px;height: 17px;border: 1px solid #ccc;font-size: 12px;color: #747474;font-weight: normal;text-indent: 5px;}
+.sort a{width: 19px;height: 19px;position: absolute;top:0;left:90px;background: url('../images/shopping_bg.png') no-repeat 0 -376px;}
+.sort a:hover{background: url('../images/shopping_bg.png') no-repeat -19px -376px;z-index: 2;}
+.sort ul{width: 108px;border: 1px solid #ccc;background: #fff;position: absolute;top: 18px;left: 0;z-index:1;display: none;}
+.sort li{font-size: 12px;line-height: 20px;cursor: pointer;}
+.sort .active{background: #099;color: #fff;}
+.sort p{float: right;color: #747474;font-size: 12px;}
+.sort p strong{color: #999;}
+.sort p span{padding:0 5px;}
+
+.color_style{color: #b20e00;}
