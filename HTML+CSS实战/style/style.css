@@ -68,14 +68,14 @@ width: 630px;}
 #ad .bg{width: 940px;height: 52px;background: #000;opacity: .8;position: absolute;
     bottom: 0;left: 0;z-index: 2;}
 
-#main{width: 942px;margin: 0 auto;}
+#main{width: 942px;margin: 0 auto;padding-top: 30px;}
 #side{width: 210px;float: left;}
 #wrap{width: 706px;float: right;}
 
 .clear{zoom: 1;}
 .clear::after{content: "";display: block;clear: both;}
 
-.module_menu {}
+.module_menu {margin-bottom: 12px;}
 .module_menu h2 {font-size: 15px;color: #fff;line-height: 28px;text-align: center; height: 29px;background: url('../images/module_menu_bg.png') repeat-x 0 -58px;}
 .module_menu h2 strong{display: block;height: 29px;background: url('../images/module_menu_bg.png') no-repeat;margin-bottom: 1px;}
 .module_menu h2 span{display: block;height: 29px;background: url('../images/module_menu_bg.png') no-repeat right -29px;;}
@@ -85,3 +85,20 @@ width: 630px;}
 .list li{}
 .list a{display: block;height: 27px;line-height: 27px;border-bottom: 1px solid #fff;color: #434343;text-decoration: none;font-weight: bold;font-size: 12px;padding-left: 32px;}
 .list a:hover{color: #b20e00;border-bottom: 1px solid #b20e00;background: #fae191;}
+
+.module_join{width: 210px;background: url('../images/list_bg.gif') repeat-y -630px 0;}
+.module_join_t{background: url('../images/list_bg.gif') no-repeat -420px 0;}
+.module_join_b{background: url('../images/list_bg.gif') repeat-y -840px bottom;}
+
+.Join_form{width: 180px;margin: 0 auto 12px;}
+.Join_form p{font-size: 15px;color: #666;line-height: 18px;padding: 12px 0;}
+.Join_form .text{width: 175px;height: 25px;line-height: 25px;background: #fff;border:1px solid #fff;border-top: 1px solid #9c9c9c;border-left: 1px solid #c0c0c0;margin-bottom: 6px;}
+.Join_form .btn{width: 88px;height: 25px;border: none; background: url('../images/shopping_bg.png') no-repeat 0 -145px;font-size: 15px;color: #fff;font-weight: bold;margin: 0 auto;display: block;}
+
+.join_list {width:192px;margin: 0 auto; background: url('../images/shopping_bg.png') no-repeat 10px -170px;}
+.join_list li{border-top: 1px solid #fff;padding-left: 62px;font-size: 13px;
+color: #434343;}
+
+.space1{height: 45px;line-height: 45px;}
+.space2{height: 38px;padding-top: 5px;line-height: 18px;}
+.space3{height: 45px;line-height: 18px;padding-top: 5px;}
