@@ -76,12 +76,12 @@ width: 630px;}
 .clear::after{content: "";display: block;clear: both;}
 
 .module_menu {}
-.module_menu h2 { height: 29px;background: url('../images/module_menu_bg.png') repeat-x 0 -58px;}
-.module_menu h2 strong{display: block;height: 29px;}
-.module_menu h2 span{display: block;height: 29px;}
+.module_menu h2 {font-size: 15px;color: #fff;line-height: 28px;text-align: center; height: 29px;background: url('../images/module_menu_bg.png') repeat-x 0 -58px;}
+.module_menu h2 strong{display: block;height: 29px;background: url('../images/module_menu_bg.png') no-repeat;margin-bottom: 1px;}
+.module_menu h2 span{display: block;height: 29px;background: url('../images/module_menu_bg.png') no-repeat right -29px;;}
 
-.list {}
-.list ul{}
+.list {background: url('../images/list_bg.gif') repeat-y;}
+.list ul{background: url('../images/list_bg.gif') no-repeat -210px bottom;padding: 18px 8px  15px;}
 .list li{}
-.list a{}
-.list a:hover{}
+.list a{display: block;height: 27px;line-height: 27px;border-bottom: 1px solid #fff;color: #434343;text-decoration: none;font-weight: bold;font-size: 12px;padding-left: 32px;}
+.list a:hover{color: #b20e00;border-bottom: 1px solid #b20e00;background: #fae191;}
