@@ -1,8 +1,8 @@
 /*
  * @Author: tangjun 
  * @Date: 2018-03-27 10:40:42 
- * @Last Modified by:   tangjun 
- * @Last Modified time: 2018-03-27 10:40:42 
+ * @Last Modified by: tangjun
+ * @Last Modified time: 2018-03-27 14:22:19
  */
 
 
@@ -30,6 +30,8 @@ body{background:#fff url('../images/body_bg.png') repeat-x ;}
 .top_bar .help{background:url('../images/top_ico.png') no-repeat 0 -46px;padding:0 38px;}
 .top_bar .help a{color: #fff;}
 
+.sbie6_img img{float: left;position: relative;top: 10px;}
+
 .top_bar .space{ margin-right: 12px;}
 
 #header{ width: 960px;height: 100px;margin: 0 auto;position: relative;background: url('../images/header_bg.png') no-repeat center;}
@@ -45,13 +47,13 @@ font-weight: bold;text-align: center;line-height: 23px;}
 #header .search{top: 34px;right: 0;}
 
 .search { width: 292px;height: 30px;background: url('../images/search.png') no-repeat center;position: absolute;}
-.search .text{position: absolute;top: 0;left: 0;width: 230px;height: 30px;background: none;border: none;
+.search .text{position: absolute;top: 0;left: 0;width: 230px;height: 30px;line-height: 30px; background: none;border: none;
     font-size: 13px;color: #666666;padding-left: 20px;outline: none;}
 .search .btn {position: absolute;right: 0;top: 0; width: 42px;height:30px;background: none;border: none;}
 
 #nav{width: 960px;  height:36px;margin: 0 auto;padding-top: 8px; }
 #nav li {float: left;height: 28px;margin-right: 2px;}
-#nav a{float:left;height: 28px;text-decoration: none;
+#nav a{float:left;height: 28px;text-decoration: none;cursor: pointer;
 color: #fff;font-size: 15px;font-family: Arial, Helvetica, sans-serif;line-height: 28px;}
 #nav strong{float:left;height: 28px;font-weight: normal;}
 #nav span{float:left;height: 28px;padding: 0 16px;}
@@ -82,15 +84,14 @@ width: 630px;}
 .clear::after{content: "";display: block;clear: both;}
 
 .module_menu {margin-bottom: 12px;}
-.module_menu h2 {font-size: 15px;color: #fff;line-height: 28px;text-align: center; height: 29px;background: url('../images/module_menu_bg.png') repeat-x 0 -58px;}
-.module_menu h2 strong{display: block;height: 29px;background: url('../images/module_menu_bg.png') no-repeat;margin-bottom: 1px;}
-.module_menu h2 span{display: block;height: 29px;background: url('../images/module_menu_bg.png') no-repeat right -29px;;}
+.module_menu h2 {font-size: 15px;color: #fff;line-height: 28px;text-align: center; height: 29px;background: url('../images/module_menu_bg.gif') repeat-x 0 -58px;}
+.module_menu h2 strong{display: block;height: 29px;background: url('../images/module_menu_bg.gif') no-repeat;margin-bottom: 1px;}
+.module_menu h2 span{display: block;height: 29px;background: url('../images/module_menu_bg.gif') no-repeat right -29px;;}
 
 .list {background: url('../images/list_bg.gif') repeat-y;}
 .list ul{background: url('../images/list_bg.gif') no-repeat -210px bottom;padding: 18px 8px  15px;}
-.list li{}
 .list a{display: block;height: 27px;line-height: 27px;border-bottom: 1px solid #fff;color: #434343;text-decoration: none;font-weight: bold;font-size: 12px;padding-left: 32px;}
-.list a:hover{color: #b20e00;border-bottom: 1px solid #b20e00;background: #fae191;}
+.list a:hover{color: #b20e00;border-bottom: 1px solid #b20e00;background: #fae191;text-decoration: none;}
 
 .module_join{width: 210px;background: url('../images/list_bg.gif') repeat-y -630px 0;}
 .module_join_t{background: url('../images/list_bg.gif') no-repeat -420px 0;}
@@ -101,7 +102,7 @@ width: 630px;}
 .Join_form .text{width: 175px;height: 25px;line-height: 25px;background: #fff;border:1px solid #fff;border-top: 1px solid #9c9c9c;border-left: 1px solid #c0c0c0;margin-bottom: 6px;}
 .Join_form .btn{width: 88px;height: 25px;border: none; background: url('../images/shopping_bg.png') no-repeat 0 -145px;font-size: 15px;color: #fff;font-weight: bold;margin: 0 auto;display: block;}
 
-.join_list {width:192px;margin: 0 auto; background: url('../images/shopping_bg.png') no-repeat 10px -170px;}
+.join_list {width:192px;margin: 0 auto; background: url('../images/shopping_bg.gif') no-repeat 10px 8px;}
 .join_list li{border-top: 1px solid #fff;padding-left: 62px;font-size: 13px;
 color: #434343;}
 
