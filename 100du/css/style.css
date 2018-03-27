@@ -2,7 +2,7 @@
  * @Author: tangjun 
  * @Date: 2018-03-27 15:16:55 
  * @Last Modified by: tangjun
- * @Last Modified time: 2018-03-27 15:59:54
+ * @Last Modified time: 2018-03-27 16:45:37
  */
 
 @charset "utf-8";
@@ -83,3 +83,22 @@ body {
 .fr {
     float: right;
 }
+.gradient{
+    background: -moz-linear-gradient(top, #FFFFFF, #f8f8f8);
+    background:-webkit-linear-gradient(top, #FFFFFF, #f8f8f8);
+    background:-o-linear-gradient(top, #FFFFFF, #f8f8f8);
+    background: linear-gradient(top, #FFFFFF, #f8f8f8);
+}
+/* layout */
+#header{height: 30px;}
+#nav{}
+#search{}
+.content{}
+.main{}
+.section{}
+.options{}
+.main_ad{}
+.side{}
+.side_section{}
+.side_ad{}
+#footer{}
