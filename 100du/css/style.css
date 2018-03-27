@@ -2,16 +2,84 @@
  * @Author: tangjun 
  * @Date: 2018-03-27 15:16:55 
  * @Last Modified by: tangjun
- * @Last Modified time: 2018-03-27 15:38:19
+ * @Last Modified time: 2018-03-27 15:59:54
  */
-@charset "utf-8";
 
-body,h1,h2,h3,h4,h5,h6,p,dl,dd,ul,ol,form,input,textarea,th,td,select{margin: 0;padding: 0;}
-em{font-style: normal;}
-li{list-style: none;}
-a{text-decoration: none;}
-img{border: none;vertical-align: top;}
-table{border-collapse: collapse;}
-input,textarea{outline: none;}
-textarea{resize: none;overflow: auto;}
-body{font-size: 12px;font-family:'微软雅黑';}
+@charset "utf-8";
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dd,
+ul,
+ol,
+form,
+input,
+textarea,
+th,
+td,
+select {
+    margin: 0;
+    padding: 0;
+}
+
+em {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+    vertical-align: top;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+input,
+textarea {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    overflow: auto;
+}
+
+body {
+    font-size: 12px;
+    font-family: '微软雅黑';
+}
+
+/* public */
+
+.clear {
+    zoom: 1;
+}
+
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
