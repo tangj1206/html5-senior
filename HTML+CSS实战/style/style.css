@@ -123,10 +123,15 @@ color: #434343;}
 
 .pic_list{width: 706px;overflow: hidden;}
 .pic_list h2{height: 56px;line-height: 62px;overflow: hidden; font-size: 18px;color: #666;}
-.pic_list ul{width: 736px;border: 1px solid red;}
-.pic_list li{float: left;width: 184px;}
-.pic_list a{display: block; width: 154px;height: 114px;border: 1px solid #c6c6c6;}
+.pic_list ul{width: 736px;}
+.pic_list li{float: left;width: 184px;height: 200px;}
+.pic_list a{display: block; width: 154px;height: 114px;border: 1px solid #c6c6c6;margin-bottom: 6px;}
 .pic_list a:hover{border: 1px solid  #663;}
-.pic_list h3{}
-.pic_list p{}
-.pic_list span{}
+.pic_list h3{font-size: 15px; color: #666;line-height: 16px;}
+.pic_list p{color: #333;font-size: 13px;line-height: 16px;}
+.pic_list span{color: #b20e00;}
+
+.page{text-align: center;border-bottom: 1px solid #cdcdc8;padding-bottom: 5px;}
+.page a{height: 20px;line-height: 20px; display:inline-block;padding: 0 10px;color: #b20e00;text-decoration: none;font-size: 12px;}
+.page a:hover,.page .active{color: #fff;background: #b20e00;}
+.page a span{font-family: '宋体';}
