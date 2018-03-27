@@ -1,4 +1,10 @@
-/* 整站开发实战 tangj */
+/*
+ * @Author: tangjun 
+ * @Date: 2018-03-27 10:40:42 
+ * @Last Modified by:   tangjun 
+ * @Last Modified time: 2018-03-27 10:40:42 
+ */
+
 
 body,ul,p,h1,h2,h3,h4,dl,dd,form,input,textarea,select{
     padding: 0;margin: 0;font-family: Arial, Helvetica, sans-serif;
@@ -122,7 +128,7 @@ color: #434343;}
 .color_style{color: #b20e00;}
 
 .pic_list{width: 706px;overflow: hidden;}
-.pic_list h2{height: 56px;line-height: 62px;overflow: hidden; font-size: 18px;color: #666;}
+.pic_list h2,#scroll_list h2{height: 56px;line-height: 62px;overflow: hidden; font-size: 18px;color: #666;}
 .pic_list ul{width: 736px;}
 .pic_list li{float: left;width: 184px;height: 200px;}
 .pic_list a{display: block; width: 154px;height: 114px;border: 1px solid #c6c6c6;margin-bottom: 6px;}
@@ -135,3 +141,33 @@ color: #434343;}
 .page a{height: 20px;line-height: 20px; display:inline-block;padding: 0 10px;color: #b20e00;text-decoration: none;font-size: 12px;}
 .page a:hover,.page .active{color: #fff;background: #b20e00;}
 .page a span{font-family: '宋体';}
+
+.scroll_wrap {height: 196px; background:url('../images/scroll_bg.gif') repeat-x 0 -478px;}
+.scroll_wrap_left {height: 196px; background:url('../images/scroll_bg.gif') no-repeat 0 -86px;}
+.scroll_wrap_right {height: 196px; background:url('../images/scroll_bg.gif') no-repeat right -282px;position: relative;}
+
+.prev,.next{width: 35px;height: 43px;position: absolute;top: 70px;}
+.prev{left: 0; background: url('../images/scroll_bg.gif') no-repeat;}
+.next{right:0;background: url('../images/scroll_bg.gif') no-repeat 0 -43px;}
+
+.list_wrap{width: 615px;height:150px;padding-top: 32px; margin: 0 auto;}
+.list_wrap ul{ height: 150px; }
+.list_wrap li{width: 205px;float: left;}
+.list_wrap a,.list_wrap p{width: 145px;margin: 0 auto;}
+.list_wrap a{display: block; height: 100px;}
+.list_wrap p {line-height: 14px;padding-top: 10px; font-size: 12px;color: #600;text-align: center;}
+
+#footer { height:302px; background:url(../images/footer_bg.png) repeat-x; }
+#footer_info { width:940px; height:60px; margin:0 auto; position:relative; }
+#footer_info p { height:60px; line-height:60px; color:#cbcbcb; font-size:14px; font-weight:bold; float:left; }
+#footer_info .ico1 { background:url(../images/footer_info.png) no-repeat 0 4px; text-indent:60px; margin-right:25px; }
+#footer_info .ico2 { background:url(../images/footer_info.png) no-repeat 0 -52px; text-indent:50px; }
+#footer_info .search { position:absolute; top:15px; right:-10px; }
+
+#footer_link { width:920px; margin:0 auto; overflow:hidden; padding-top:20px; }
+#footer_link dl { float:left; width:184px; }
+#footer_link dt { font-size:15px; color:#fff; font-weight:bold; line-height:50px; }
+#footer_link dd { line-height:20px; }
+#footer_link a { font-size:13px; color:#cfcfcf; }
+#footer_link .space { padding-top:20px; }
+#footer_link .pos { position:relative; left:-20px; }
