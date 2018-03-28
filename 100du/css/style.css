@@ -83,22 +83,107 @@ body {
 .fr {
     float: right;
 }
-.gradient{
+
+.gradient {
     background: -moz-linear-gradient(top, #FFFFFF, #f8f8f8);
-    background:-webkit-linear-gradient(top, #FFFFFF, #f8f8f8);
-    background:-o-linear-gradient(top, #FFFFFF, #f8f8f8);
+    background: -webkit-linear-gradient(top, #FFFFFF, #f8f8f8);
+    background: -o-linear-gradient(top, #FFFFFF, #f8f8f8);
     background: linear-gradient(top, #FFFFFF, #f8f8f8);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#FFFFFF, endColorstr=#f8f8f8)";
+    background: #f9f9f9;
 }
+
 /* layout */
-#header{height: 30px;width:960px;margin: 0 auto;border-radius:0 0 6px 6px;}
-#nav{height: 100px;width: 960px;margin: 0 auto;background: #ffc;}
-#search{width: 958px;border: 1px solid #dbdbdb;height:114px;border-radius: 6px;margin: 0 auto 10px;}
-.content{width: 960px;margin: 0 auto;}
-.main{width: 710px;}
-.section{width: 318px;padding: 0 15px; border: 1px solid #dbdbdb;border-radius: 6px;height: 200px;margin-bottom: 10px;}
-.options{width: 350px;height: 200px;background: #ffc;}
-.main_ad{margin-bottom: 10px;border-radius: 6px;overflow: hidden;}
-.side{width: 240px;}
-.side_section{}
-.side_ad{}
-#footer{}
+
+#header,
+#nav,
+.content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#search,
+.section,
+.side_section,
+.ad_border,
+#footer{
+    border: 1px solid #dbdbdb;
+    border-radius: 6px;
+}
+.section,
+.options,
+.main_ad,
+.side_section,
+.side_ad,
+.ad_border{
+    margin-bottom: 10px;
+}
+
+
+body {
+    margin-bottom: 30px;
+}
+
+#header {
+    height: 30px;
+    border-radius: 0 0 6px 6px;
+}
+
+#nav {
+    height: 100px;
+    background: #ffc;
+}
+
+#search {
+    width: 958px;
+    height: 114px;
+    margin: 0 auto 10px;
+}
+
+.main {
+    width: 710px;
+}
+
+.section {
+    width: 318px;
+    padding: 0 15px;
+    height: 200px;
+}
+
+.options {
+    width: 350px;
+    height: 200px;
+    background: #ffc;
+}
+
+.main_ad {
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.side {
+    width: 240px;
+}
+
+.side_section {
+    height: 60px;
+}
+
+.side_ad {
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.ad_border {
+    border: 1px solid #dbdbdb;
+    width: 238px;
+    height: 88px;
+    overflow: hidden;
+}
+
+#footer {
+    width: 958px;
+    height: 78px;
+    background: #f9f9f9;
+    margin: 0 auto;
+}
