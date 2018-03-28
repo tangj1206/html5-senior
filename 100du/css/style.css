@@ -111,8 +111,6 @@ body {
     border-radius: 6px;
 }
 
-.section,
-.options,
 .main_ad,
 .side_section,
 .side_ad,
@@ -142,6 +140,10 @@ body {
 
 .main {
     width: 710px;
+}
+
+.main_wrap {
+    padding-bottom: 10px;
 }
 
 .section {
@@ -214,7 +216,7 @@ body {
     top: 34px;
     left: 0;
     width: 348px;
-    height: 80px;    
+    height: 80px;
     border: 1px solid #dbdbdb;
     border-radius: 0 0 6px 6px;
     z-index: 1;
