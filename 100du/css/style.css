@@ -90,15 +90,15 @@ body {
     background: linear-gradient(top, #FFFFFF, #f8f8f8);
 }
 /* layout */
-#header{height: 30px;}
-#nav{}
-#search{}
-.content{}
-.main{}
-.section{}
-.options{}
-.main_ad{}
-.side{}
+#header{height: 30px;width:960px;margin: 0 auto;border-radius:0 0 6px 6px;}
+#nav{height: 100px;width: 960px;margin: 0 auto;background: #ffc;}
+#search{width: 958px;border: 1px solid #dbdbdb;height:114px;border-radius: 6px;margin: 0 auto 10px;}
+.content{width: 960px;margin: 0 auto;}
+.main{width: 710px;}
+.section{width: 318px;padding: 0 15px; border: 1px solid #dbdbdb;border-radius: 6px;height: 200px;margin-bottom: 10px;}
+.options{width: 350px;height: 200px;background: #ffc;}
+.main_ad{margin-bottom: 10px;border-radius: 6px;overflow: hidden;}
+.side{width: 240px;}
 .side_section{}
 .side_ad{}
 #footer{}
