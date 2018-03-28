@@ -106,19 +106,19 @@ body {
 .section,
 .side_section,
 .ad_border,
-#footer{
+#footer {
     border: 1px solid #dbdbdb;
     border-radius: 6px;
 }
+
 .section,
 .options,
 .main_ad,
 .side_section,
 .side_ad,
-.ad_border{
+.ad_border {
     margin-bottom: 10px;
 }
-
 
 body {
     margin-bottom: 30px;
@@ -153,7 +153,7 @@ body {
 .options {
     width: 350px;
     height: 200px;
-    background: #ffc;
+    position: relative;
 }
 
 .main_ad {
@@ -167,6 +167,7 @@ body {
 
 .side_section {
     height: 60px;
+    padding: 0 12px;
 }
 
 .side_ad {
@@ -186,4 +187,35 @@ body {
     height: 78px;
     background: #f9f9f9;
     margin: 0 auto;
+}
+
+.options .nav {
+    height: 34px;
+    position: relative;
+    z-index: 2;
+}
+
+.options .nav li {
+    width: 172px;
+    height: 33px;
+    border: 1px solid #dbdbdb;
+    border-bottom: none;
+    border-radius: 6px 6px 0 0;
+}
+
+.options .nav .active {
+    width: 172px;
+    height: 34px;
+    background: #fff;
+}
+
+.options .con {
+    position: absolute;
+    top: 34px;
+    left: 0;
+    width: 348px;
+    height: 80px;    
+    border: 1px solid #dbdbdb;
+    border-radius: 0 0 6px 6px;
+    z-index: 1;
 }
