@@ -228,7 +228,7 @@ body {
 
 #header .city {
     float: left;
-    padding:5px 0 0 20px;
+    padding: 5px 0 0 20px;
 }
 
 #header .city a {
@@ -243,8 +243,9 @@ body {
     color: #999;
 }
 
-#header .city a.active {
+#header .city a.active,#header .city .active:hover {
     color: #d60d03;
+    background: #fff;
 }
 
 #header .city a:hover {
@@ -255,8 +256,23 @@ body {
     float: right;
     padding-right: 20px;
     line-height: 30px;
+    word-spacing: 4px;
 }
 
-#header .link a {}
+#header .link a {
+    color: #666;
+    background: url('../img/header_link_bg.gif') no-repeat 0 3px;
+    padding-left: 20px;
+}
 
-#header .link a:hover {}
+#header .link a:hover {
+    text-decoration: underline;
+}
+
+#header .link .ico1 {
+    background-position: 0 3px;
+}
+
+#header .link .ico2 {
+    background-position: 0 -27px;
+}
