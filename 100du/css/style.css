@@ -173,7 +173,6 @@ body {
 .section {
     width: 318px;
     padding: 0 15px;
-    height: 200px;
 }
 
 .options {
@@ -588,4 +587,45 @@ body {
 #search .triangle_down_red {
     top: 17px;
     right: 0;
+}
+
+.video_title {
+    height: 42px;
+    line-height: 42px;
+    background: url(../img/video_bg.gif) no-repeat 105px 10px;
+    font-size: 18px;
+    font-family: arial;
+    color: #d90000;
+    font-weight: normal;
+    position: relative;
+}
+
+.video_title sup {
+    position: absolute;
+    top: -10px;
+    font-family: '宋体';
+}
+
+.video {
+    margin-bottom: 13px;
+}
+
+.video_list {
+    padding-left: 75px;
+    height: 78px;
+    background: url(../img/video_bg.gif) no-repeat 3px -47px;
+}
+
+.video_list li {
+    line-height: 20px;
+    text-indent: 14px;
+    background: url(../img/dot.gif) no-repeat 5px center;
+}
+
+.video_list a {
+    color: #4d4d4d;
+}
+
+.video_list a:hover {
+    text-decoration: underline;
 }
