@@ -941,22 +941,58 @@ body {
     height: 27px;
     line-height: 27px;
     border-bottom: 1px dotted #dadada;
-    background: url('../img/dot.gif') no-repeat 5px center ;
-    text-indent: 14px;
+    background: url('../img/dot.gif') no-repeat 5px center;
+    vertical-align: middle;
 }
 
 .list_section a {
     color: #333;
+    float: left;
+    text-indent: 14px;    
 }
 
 .list_section a:hover {
     text-decoration: underline;
 }
 
-.list_section a em{
+.list_section a em {
     color: #c3c3c3;
 }
 
-.list_section  a span{
+.list_section a span {
     color: #c75d61;
+}
+
+.list_section .title {
+    background: none;
+    color: #999;    
+}
+
+.list_section .col1,
+.list_section .col2,
+.list_section .col3 {
+    float: left;
+}
+
+.list_section .col2,
+.list_section .col3 {
+    text-align: center;
+}
+
+.list_section .title{background: none;}
+.list_section .title .col1{text-align: center;}
+
+.list_section .col1 {
+    width: 137px;
+}
+
+.list_section .col2 {
+    width: 35px;
+}
+
+.list_section .col3 {
+    width: 36px;
+}
+.list_section .color{
+    color: #d80000;
 }
