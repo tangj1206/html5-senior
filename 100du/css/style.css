@@ -1003,7 +1003,53 @@ body {
     width: 36px;
 }
 
-.section .col1{width: 273px;}
-.section .col2{width: 35px;}
-.section .col2 img{position: relative;top: 7px;}
-.section .list_section .title {border-top:none;}
+.section .col1 {
+    width: 273px;
+}
+
+.section .col2 {
+    width: 35px;
+}
+
+.section .col2 img {
+    position: relative;
+    top: 7px;
+}
+
+.section .list_section .title {
+    border-top: none;
+}
+
+.wrap_section1 {
+    padding-bottom: 5px;
+}
+
+.soso {
+    border-top: 1px dotted #dadada;
+    height: 47px;
+    padding: 17px 0 0 10px ;
+}
+.soso strong,.soso .text ,.soso .btn{
+    float: left;
+}
+.soso strong {
+    color: #595959;
+    padding-top: 3px;
+}
+
+.soso .text {
+    width: 172px;
+    height: 20px;
+    border: 1px solid #9c9c9c;
+    line-height: 20px;
+    color: #9c9c9c;
+    padding: 0 4px;
+}
+
+.soso .btn {
+    width: 24px;
+    height: 25px;
+    background: url('../img/btn.gif') no-repeat;
+    border: none;
+    margin-left: 10px;
+}
