@@ -940,7 +940,7 @@ body {
 .list_section li {
     height: 27px;
     line-height: 27px;
-    border-bottom: 1px dotted #dadada;
+    border-top: 1px dotted #dadada;
     background: url('../img/dot.gif') no-repeat 5px center;
     vertical-align: middle;
 }
@@ -948,7 +948,7 @@ body {
 .list_section a {
     color: #333;
     float: left;
-    text-indent: 14px;    
+    text-indent: 14px;
 }
 
 .list_section a:hover {
@@ -965,7 +965,7 @@ body {
 
 .list_section .title {
     background: none;
-    color: #999;    
+    color: #999;
 }
 
 .list_section .col1,
@@ -979,20 +979,30 @@ body {
     text-align: center;
 }
 
-.list_section .title{background: none;}
-.list_section .title .col1{text-align: center;}
+.list_section .title {
+    background: none;
+}
 
-.list_section .col1 {
+.list_section .title .col1 {
+    text-align: center;
+}
+
+.list_section .color {
+    color: #d80000;
+}
+
+.side_section .col1 {
     width: 137px;
 }
 
-.list_section .col2 {
+.side_section .col2 {
     width: 35px;
 }
 
-.list_section .col3 {
+.side_section .col3 {
     width: 36px;
 }
-.list_section .color{
-    color: #d80000;
-}
+
+.section .col1{width: 273px;}
+.section .col2{width: 35px;}
+.section .col2 img{position: relative;top: 7px;}
