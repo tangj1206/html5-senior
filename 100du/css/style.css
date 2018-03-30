@@ -1006,3 +1006,4 @@ body {
 .section .col1{width: 273px;}
 .section .col2{width: 35px;}
 .section .col2 img{position: relative;top: 7px;}
+.section .list_section .title {border-top:none;}
